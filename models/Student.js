@@ -21,8 +21,7 @@ const studentSchema = new mongoose.Schema({
     },
     contact_number:{
         type:Number,
-        required:true,
-        unique:true
+        required:true
     }
     
 }, {timestamps:true})
